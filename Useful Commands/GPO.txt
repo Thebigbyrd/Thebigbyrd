@@ -1,0 +1,2 @@
+gpresult /r #show user report and what gpo are being applied
+gpoupdate /force #updates GPO on the PC to apply right away

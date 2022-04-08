@@ -1,0 +1,4 @@
+Connect-ExchangeOnline -UserPrincipalName administrator@company.com
+Get-MailboxFolderPermission username:\calendar
+Add-MailboxFolderPermission -Identity user1@domain.com:\calendar -user user2@domain.com -AccessRights Editor
+Set-MailboxFolderPermission -Identity user1@domain.com:\calendar -User Default -AccessRights Reviewer
