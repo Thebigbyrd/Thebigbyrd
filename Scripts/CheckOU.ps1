@@ -6,4 +6,4 @@ Search-ADAccount -AccountDisabled -UsersOnly | Move-ADObject -TargetPath $OU -wh
 
 //Instead of moving, make it grab the users as an array, store in variable. Check both users in Archived and Disabled and check for enabled users in disabled OU.
 
-new change +
+new change
